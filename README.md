@@ -32,13 +32,13 @@ hybrid / remote)** moderates the association between **AI tool use** and
 ├── notebooks/
 │   ├── 01_download.ipynb      # acquire & verify raw CSVs
 │   ├── 02_recode.ipynb        # recode raw -> analytic samples
-│   ├── 03_analysis.ipynb      # multilevel models H1-H5 + replication + figure
+│   ├── 03_analysis.ipynb      # multilevel models H1-H3 + replication + intensity + figures
 │   └── 04_descriptives.ipynb  # Table 1, VIF, ICC, sensitivity
 ├── src/
 │   ├── recode.py     # variable recoding & sample construction
 │   └── models.py     # multilevel models, tests, diagnostics
 └── results/
-    ├── figures/      # exported figures
+    ├── figures/      # exported figures (interaction forest plot, intensity slopes)
     └── tables/       # exported result tables (CSV)
 ```
 
@@ -72,8 +72,8 @@ Run the notebooks in order from the `notebooks/` folder:
 
 1. `01_download.ipynb` — ensures `data/raw/` contains both survey CSVs.
 2. `02_recode.ipynb` — writes analytic samples to `data/processed/`.
-3. `03_analysis.ipynb` — fits all models, writes tables/figure to `results/`.
-4. `04_descriptives.ipynb` — writes Table 1, VIF, ICC, sensitivity to `results/`.
+3. `03_analysis.ipynb` — fits all models, writes tables and figures to `results/`.
+4. `04_descriptives.ipynb` — writes Table 1, VIF, ICC, and sensitivity analyses to `results/`.
 
 Each notebook adds `src/` to the path and imports the shared functions, so the
 recoding and modeling logic lives in one place and is reused across notebooks.
@@ -93,5 +93,5 @@ and compared as a replication, rather than pooled.
 
 ## License
 
-Code released under the MIT License (see `LICENSE`). Survey data are governed by
-their original ODbL/DbCL terms and are not redistributed here.
+Code is released under the MIT License. Survey data are governed by their
+original ODbL/DbCL terms and are not redistributed here.
