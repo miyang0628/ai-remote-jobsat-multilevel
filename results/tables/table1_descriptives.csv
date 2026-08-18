@@ -1,0 +1,15 @@
+year,variable,stat
+2024,N (analytic sample),26576
+2024,Countries (level-2),48
+2024,Job satisfaction (0-10),"M=6.95, SD=2.07, range=[0, 10]"
+2024,Work experience (years),"M=11.71, SD=9.27, range=[0, 50]"
+2024,AI use = Yes (%),61.8%
+2024,Work arrangement,"Hybrid 43.9%, Remote 38.7%, In-person 17.4%"
+2024,Role group,"Developer 75.7%, Other 8.7%, Data/ML 5.0%, Manager 4.0%, Research 3.3%, DevOps/Infra 2.8%, Student 0.5%"
+2025,N (analytic sample),16081
+2025,Countries (level-2),36
+2025,Job satisfaction (0-10),"M=7.21, SD=1.92, range=[0, 10]"
+2025,Work experience (years),"M=13.48, SD=9.74, range=[1, 65]"
+2025,AI use = Yes (%),80.2%
+2025,Work arrangement,"Hybrid 44.1%, Remote 40.5%, In-person 15.3%"
+2025,Role group,"Developer 75.1%, Other 12.1%, Data/ML 5.6%, Manager 2.9%, DevOps/Infra 2.8%, Research 1.0%, Student 0.4%"
